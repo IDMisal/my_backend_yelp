@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mybackendyelp-dev-085eb-authRole",
+      "UnauthRoleArn": "arn:aws:iam::277707110099:role/amplify-mybackendyelp-dev-085eb-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::277707110099:role/amplify-mybackendyelp-dev-085eb-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-mybackendyelp-dev-085eb-deployment",
+      "UnauthRoleName": "amplify-mybackendyelp-dev-085eb-unauthRole",
+      "StackName": "amplify-mybackendyelp-dev-085eb",
+      "StackId": "arn:aws:cloudformation:eu-north-1:277707110099:stack/amplify-mybackendyelp-dev-085eb/925fc3f0-816e-11ef-82f1-0e75b7d24223",
+      "AmplifyAppId": "d2cv3821oo6wvh"
+    },
+    "categories": {
+      "auth": {
+        "mybackendyelp19589a95": {}
+      },
+      "api": {
+        "mybackendyelp": {}
+      },
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}

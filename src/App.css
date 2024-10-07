@@ -1,0 +1,84 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #34495e;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.app-header h1 {
+  font-size: 2rem;
+}
+
+.app-content {
+  padding: 2rem;
+}
+
+.add-restaurant-section,
+.restaurant-list-section {
+  margin-bottom: 2rem;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.restaurant-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.input-field {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.create-button {
+  background-color: #27ae60;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+.create-button:hover {
+  background-color: #2ecc71;
+}
+
+.restaurant-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.restaurant-table th,
+.restaurant-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.restaurant-table th {
+  background-color: #34495e;
+  color: white;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
